@@ -99,4 +99,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.5 });
 
     numberElements.forEach(element => statsObserver.observe(element));
+
+    // Populate FAQ items
+    const faqContainer = document.getElementById('faq-items');
+    faqs.forEach(faq => {
+        const faqItem = document.createElement('div');
+        faqItem.classList.add('faq-item');
+        
+        const question = document.createElement('h3');
+        question.textContent = faq.question;
+        
+        const answer = document.createElement('p');
+        answer.textContent = faq.answer;
+
+        faqItem.appendChild(question);
+        faqItem.appendChild(answer);
+        faqContainer.appendChild(faqItem);
+    });
 });

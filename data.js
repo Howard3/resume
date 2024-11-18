@@ -1,7 +1,7 @@
 const experienceData = [
     {
         "title": "Software Architect, Technical Manager, and AI/Automation Expert",
-        "company": "Redacted, available on request (Remote, HQ Philippines)",
+        "company": "Redacted",
         "period": "June 2020 – Present",
         "achievements": [
             "Expanded client requirements without increasing headcount, resulting in millions in annual savings",
@@ -110,4 +110,11 @@ const otherSkills = [
     "Express.js", "Next.js", "Tailwind CSS", "Docker Swarm",
     "ZeroMQ", "InfluxDB", "CockroachDB", "Amazon EventBridge",
     "Hugging Face Transformers", "Puppeteer", "Postman", "Loki", "SaltStack"
+];
+
+const faqs = [
+    {
+        "question": "Why is my current job redacted?",
+        "answer": "To protect my company's security and confidentiality due to the sensitive nature of my role, I choose not to publicly disclose my current employment."
+    }
 ];

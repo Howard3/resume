@@ -102,14 +102,16 @@ const coreSkills = [
     "Kubernetes", "Docker", "ArgoCD", "AWS", "GCP", "Terraform", "PostgreSQL",
     "SQLite", "MySQL", "MongoDB", "Redis", "HashiCorp Vault",
     "Event-Driven Architecture", "Domain-Driven Design", "Microservices", "Event Sourcing",
-    "Prometheus", "Grafana", "n8n.io", "Robot Framework"
+    "Prometheus", "Grafana", "n8n.io", "Robot Framework",
+    "Project Management", "Team Leadership", "DevOps Practices", "Cloud Architecture", "API Development", "LLM's", "Retrieval Augmented Generation (RAG)"
 ];
 
 const otherSkills = [
     "Linux Systems Administration", "Shell Scripting", "System Monitoring",
     "Express.js", "Next.js", "Tailwind CSS", "Docker Swarm",
     "ZeroMQ", "InfluxDB", "CockroachDB", "Amazon EventBridge",
-    "Hugging Face Transformers", "Puppeteer", "Postman", "Loki", "SaltStack"
+    "Hugging Face Transformers", "Puppeteer", "Postman", "Loki", "SaltStack",
+    "Data Engineering", "Security Best Practices", "Performance Optimization", "Machine Learning/AI"
 ];
 
 const faqs = [
